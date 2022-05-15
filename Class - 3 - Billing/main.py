@@ -13,5 +13,7 @@ iceTotal = noIce*iceCost
 
 total = burgerTotal+pizzaTotal+iceTotal
 print("The total is "+str(total))
-average = total/noPerson
+average = total//noPerson
 print("Each person has to pay "+str(average))
+rem = total%noPerson
+print("The remainder is "+str(rem))
