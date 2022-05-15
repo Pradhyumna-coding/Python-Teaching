@@ -8,3 +8,5 @@ elif no<6:
     print("We suggest you to buy family pack")
 else:
     print("We suggest you to buy Large pack")
+
+print("Thank you")
